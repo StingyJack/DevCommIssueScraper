@@ -1,0 +1,43 @@
+﻿body {
+	background-color: beige;
+	padding: 10px 5px;
+}
+
+p {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	margin-bottom: 3px;
+}
+
+span {
+	font-style: italic;
+}
+
+.textContainer {
+	display: inline;
+}
+
+.textContainer span{
+	font-style: normal;
+}
+
+.tableContainer {
+	padding: 10px;
+	background-color: burlywood;
+}
+
+.tableContainer table {
+	border-top: 1px solid;
+	border-bottom: 1px solid
+}
+
+.tableContainer table th {
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+}
+
+.tableContainer table td {
+	border-bottom: 1px solid #ddd;
+}
