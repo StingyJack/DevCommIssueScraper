@@ -1,4 +1,4 @@
-# DevCommIssueScraper
+eee# DevCommIssueScraper
 Makes https://developercommunity.visualstudio.com a bit more usable if you have many issues open. Compile the console
 application, set your name and ID in a powershell script, then run that script to fetch  the issues and generate an html page
 with summaries and details. Most importantly it will help you know what you need to provide updates for, and what to follow up on. 
@@ -20,7 +20,3 @@ minutes to get all the details, and powershell is ass at multithreading locally,
 just calls it and does the massaging. 
 
 
-_While this makes the devcomm site easier to deal with, it doesnt fix this miasma of shit that is known 
-as "git" that refuses to let me push to this remote because of "AggregateException encountered" or "HttpRequestException encountered".
-Nice fucking programming there, with that `Console.WriteLine(typeof(ex).Name);`. Next time just `ex.ToString()`, 
-or just let the exception pop cos you arent doing anything useful except making git harder to use._
