@@ -1,4 +1,4 @@
-eee# DevCommIssueScraper
+# DevCommIssueScraper
 Makes https://developercommunity.visualstudio.com a bit more usable if you have many issues open. Compile the console
 application, set your name and ID in a powershell script, then run that script to fetch  the issues and generate an html page
 with summaries and details. Most importantly it will help you know what you need to provide updates for, and what to follow up on. 
